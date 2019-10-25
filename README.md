@@ -10,9 +10,9 @@ class AddNumbers
       int a, b, sum;
       System.out.println("Enter two integers to calculate their sum ");
       Scanner in = new Scanner(System.in);
-      x = in.nextInt();
-      y = in.nextInt();
-      z = x + y;
+      a = in.nextInt();
+      b = in.nextInt();
+      sum = a + b;
       System.out.println("Sum of entered integers = ");
       System.out.print(sum);
    }
